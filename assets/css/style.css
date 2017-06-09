@@ -50,7 +50,7 @@ header h2{
 
 .mainContent{
 	width: 40%;
-	height: 350px;
+	/*height: 350px;*/
 	border: 2px solid #D3D3D3;
 	padding: 10px 20px;
 	margin: 50px;
@@ -70,14 +70,13 @@ header h2{
 .sidebar1{
 
 	width:20%;
-	height: 150px;
 	display: inline-block;
 	float: left;
 	border: 2px solid #D3D3D3;
     margin-top: 50px;
-	margin-bottom: 400px;
+	/*margin-bottom: 600px;*/
 	text-align: center;
-	padding: 10px 20px;
+	padding: 20px 20px;
 	background-color: white;
 	color:#777777;
 	position: relative;
@@ -108,7 +107,7 @@ header h2{
 }
 .mainContent2{
 	width: 40%;
-	height: 420px;
+
 	border: 2px solid #D3D3D3;
 	padding: 10px 20px;
 	margin: 50px;
@@ -152,7 +151,6 @@ input[type=submit] {
 }
 #content{
 	width: 40%;
-	height: 450px;
 	border: 2px solid #D3D3D3;
 	padding: 10px 20px;
 	margin: 50px;
@@ -175,6 +173,21 @@ input[type=submit] {
 a:hover{
 	background-color: #4aaaa5;
 }
+
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: lightblue;
+    }
+
+    @media only screen and (max-width: 768px) {
+    body {
+        background-color: black;
+    }
+
+    @media only screen and (max-width: 640px) {
+    body {
+        background-color: #4aaaa5;
+    }
 
 
 
