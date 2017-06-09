@@ -10,9 +10,8 @@ body{
 
 #wrapper {
     width: 95%;
-    height: 90% /* of body width */
-    display: inline-block;
-    
+    height: 90% 
+    display:inline-block;
     margin: auto;
     text-align: center;
 }
@@ -76,8 +75,10 @@ header h2{
 
 
 .sidebar1{
+
 	width:20%;
 	height: 150px;
+	display: inline-block;
 	float: right;
 	border: 2px solid #D3D3D3;
     margin-top: 50px;
