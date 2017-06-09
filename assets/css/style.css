@@ -55,35 +55,35 @@ header h2{
 	color:#777777;
 
 }
-.p1 img{
+.p2 img{
 	margin-right: 10px;
+
 }
 
 
-
-
-.sidebar{
+.sidebar1{
 	width:20%;
 	height: 150px;
 	float: right;
 	border: 2px solid #D3D3D3;
-	margin-right: 250px;
-	margin-top: 50px;
+    margin-top: 50px;
 	margin-bottom: 400px;
 	text-align: center;
 	padding: 10px 20px;
 	background-color: white;
 	color:#777777;
-
+	position: absolute;
+	left:720px;
 }
 
-.sidebar article h2{
+
+
+.sidebar1 article img{
+	padding-left: 10px;
+}
+.sidebar1 article h2{
 	border-bottom: 2px solid #D3D3D3;
 	color: #4aaaa5;
-}
-
-.sidebar article img{
-	padding-left: 10px;
 }
 
 .footer {
@@ -101,7 +101,7 @@ header h2{
 .mainContent2{
 	width: 40%;
 	height: 420px;
-	border: 1px solid #D3D3D3;
+	border: 2px solid #D3D3D3;
 	padding: 10px 20px;
 	margin: 50px;
 	margin-left: 120px;
@@ -144,8 +144,8 @@ input[type=submit] {
 }
 #content{
 	width: 40%;
-	height: 430px;
-	border: 1px solid #D3D3D3;
+	height: 450px;
+	border: 2px solid #D3D3D3;
 	padding: 10px 20px;
 	margin: 50px;
 	margin-left: 120px;
@@ -154,10 +154,18 @@ input[type=submit] {
 	background-color: white;
 	color:#777777;
 }
+div #p1{
+	height: 900px;
+	padding-bottom: 40px;
+
+	
+}
 .topcontent img{
 	width: 200px;
 	height: 150px;
 	margin: 10px 10px 10px 30px;
+	border: 2px solid #D3D3D3;
+
 	
 }
 
