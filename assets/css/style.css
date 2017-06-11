@@ -49,8 +49,7 @@ header h2{
 }
 
 .mainContent{
-	width: 40%;
-	/*height: 350px;*/
+	width: 50%;
 	border: 2px solid #D3D3D3;
 	padding: 10px 20px;
 	margin: 50px;
@@ -106,9 +105,8 @@ header h2{
   color:white;
 }
 .mainContent2{
-	width: 40%;
-
-	border: 2px solid #D3D3D3;
+	width: 50%;
+  border: 2px solid #D3D3D3;
 	padding: 10px 20px;
 	margin: 50px;
 	margin-left: 120px;
@@ -130,7 +128,7 @@ input[type=text]{
 }
 
 textarea{
-	width: 100%;
+	  width: 100%;
     padding: 12px 20px;
     margin: 6px 0;
     display: inline-block;
@@ -150,7 +148,7 @@ input[type=submit] {
     
 }
 #content{
-	width: 40%;
+	width: 50%;
 	border: 2px solid #D3D3D3;
 	padding: 10px 20px;
 	margin: 50px;
@@ -175,18 +173,101 @@ a:hover{
 }
 
 @media only screen and (max-width: 980px) {
-    body {
-        background-color: lightblue;
+    
+        .topcontent img{
+          margin-left: 90px;
+          
+        }
+        .p2 img{
+          width:100%;
+        max-width:280px;
+
+        }
+
+        .topcontent1 .p2{
+          padding-left: 80px;
+          padding-right: 80px;
+        }
+        #content1 img{
+          width:300px;
+
+        }
     }
 
     @media only screen and (max-width: 768px) {
-    body {
-        background-color: black;
-    }
 
+       ul li{
+        margin-left:-20px;
+
+       }
+        .topcontent{
+          width: 70%;
+    1
+        }
+        .topcontent1 .p2{
+          padding-left: 10px;
+          margin-right: -50px;
+          
+       }
+       .sidebar1{
+       top:-80px;
+       width: 50%;
+       height: 100px;
+       left: 120px;
+       }
+       #content1 img{
+         width:300px;
+         margin-left: 40px;
+       }
+       input[type=text]{
+        width: 140%;
+
+       }
+       textarea{
+        width: 140%;
+
+       }
+       input[type=submit] {
+
+       }
+
+
+    }
     @media only screen and (max-width: 640px) {
-    body {
-        background-color: #4aaaa5;
+     ul li a{
+         margin-left:0;
+         padding: 14px 50px;
+
+
+       }
+       ul li h2{
+         width:105%;
+         float:left;
+         text-align:center;
+          margin:auto;
+         margin-right:400px;
+         
+      }
+      #content img{
+        width: 340px;
+        margin-left: 50px;
+      }
+      #content{
+        margin-right:20px;
+        margin-left:80px;
+        width:70%;
+      }
+      .sidebar1{
+        width:70%;
+       /*margin-left: 5px;*/
+       margin-left: -40px;
+
+      }
+
+      .mainContent2{
+        width: 70%;
+        margin-left: 80px;
+      }
     }
 
 
